@@ -1,0 +1,132 @@
+.colorpicker {
+  background-color: #c8b4d9;
+  padding-left: 4%;
+  padding-bottom: 100px;
+  padding-right: 1%;
+}
+
+.titlecolorpicker {
+  padding-top: 5%;
+  padding-left: 40%;
+}
+
+.boxes {
+  margin-top: -200px;
+  width: 70px;
+  height: 70px;
+  background-color: antiquewhite;
+  box-shadow: 5px 5px 10px #ab8785;
+  border-radius: 5px;
+}
+
+.boxes:hover {
+  scale: 120%;
+  width: 80px;
+  height: 80px;
+  background-color: antiquewhite;
+  box-shadow: 5px 5px 10px #ab8785;
+  border: 1px solid black;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pinkboxcolorpicker {
+  background-color: #ffc0cb;
+  width: 1400px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 50px #ab8785;
+}
+
+#box1 {
+  margin-left: 15px;
+  background-color: #fe0000;
+  margin-right: 15px;
+}
+
+#box2 {
+  background-color: #00ff01;
+  margin-right: 15px;
+}
+#box3 {
+  background-color: #0000fe;
+  margin-right: 15px;
+}
+#box4 {
+  background-color: #ffff00;
+  margin-right: 15px;
+}
+#box5 {
+  background-color: #ff00fe;
+  margin-right: 15px;
+}
+#box6 {
+  background-color: #00ffff;
+  margin-right: 15px;
+}
+#box7 {
+  background-color: #fea500;
+  margin-right: 15px;
+}
+#box8 {
+  background-color: #81007f;
+  margin-right: 15px;
+}
+#box9 {
+  background-color: #ffc0cb;
+  margin-right: 15px;
+}
+#box10 {
+  background-color: #027d03;
+  margin-right: 15px;
+}
+#box11 {
+  background-color: #ff6146;
+  margin-right: 15px;
+}
+#box12 {
+  background-color: #01ced1;
+  margin-right: 15px;
+}
+#box13 {
+  background-color: #8b4512;
+  margin-right: 15px;
+}
+#box14 {
+  background-color: #ff8b00;
+  margin-right: 15px;
+}
+#box15 {
+  background-color: #4682b4;
+  margin-right: 15px;
+}
+#box16 {
+  background-color: #fed700;
+  margin-right: 30px;
+}
+
+.Pick {
+  width: 200px;
+  height: 50px;
+  margin-left: 40%;
+  background-color: #45ae51;
+  border: none;
+  font-size: x-large;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .colorpicker {
+    background-color: #c8b4d9;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 1500px;
+  }
+  .titlecolorpicker {
+    padding-top: 5%;
+    margin-left: 100%;
+  }
+}
