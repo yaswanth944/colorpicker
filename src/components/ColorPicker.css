@@ -5,9 +5,13 @@
   padding-right: 1%;
 }
 
+* {
+  background-color: #c8b4d9;
+}
+
 .titlecolorpicker {
   padding-top: 5%;
-  padding-left: 40%;
+
 }
 
 .boxes {
@@ -51,58 +55,72 @@
   background-color: #00ff01;
   margin-right: 15px;
 }
+
 #box3 {
   background-color: #0000fe;
   margin-right: 15px;
 }
+
 #box4 {
   background-color: #ffff00;
   margin-right: 15px;
 }
+
 #box5 {
   background-color: #ff00fe;
   margin-right: 15px;
 }
+
 #box6 {
   background-color: #00ffff;
   margin-right: 15px;
 }
+
 #box7 {
   background-color: #fea500;
   margin-right: 15px;
 }
+
 #box8 {
   background-color: #81007f;
   margin-right: 15px;
 }
+
 #box9 {
   background-color: #ffc0cb;
   margin-right: 15px;
 }
+
 #box10 {
   background-color: #027d03;
   margin-right: 15px;
 }
+
 #box11 {
   background-color: #ff6146;
   margin-right: 15px;
 }
+
 #box12 {
   background-color: #01ced1;
   margin-right: 15px;
 }
+
 #box13 {
   background-color: #8b4512;
   margin-right: 15px;
 }
+
 #box14 {
   background-color: #ff8b00;
   margin-right: 15px;
 }
+
 #box15 {
   background-color: #4682b4;
   margin-right: 15px;
 }
+
 #box16 {
   background-color: #fed700;
   margin-right: 30px;
@@ -111,7 +129,7 @@
 .Pick {
   width: 200px;
   height: 50px;
-  margin-left: 40%;
+
   background-color: #45ae51;
   border: none;
   font-size: x-large;
@@ -125,6 +143,7 @@
     padding-bottom: 100px;
     padding-right: 1500px;
   }
+
   .titlecolorpicker {
     padding-top: 5%;
     margin-left: 100%;
